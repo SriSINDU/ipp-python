@@ -1,9 +1,6 @@
+#python program which takes a word as input and converts the every letter of word to upper and add space between each letter of the word.
 str1=input()
-
 str2=""
-
 for i in str1:
-
 	str2=str2+i.upper()+" "
-
 print(str2)
