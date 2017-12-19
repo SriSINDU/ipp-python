@@ -1,0 +1,18 @@
+str1=input()
+count1=0
+count2=0
+for i in str1:
+	if(i=='M'):
+		count1+=1
+	if(i=='F'):
+		count2+=1
+dict1=dict()
+dict1['m_count']=count1
+dict1['f_count']=count2
+print(dict1)
+str1=""
+for i in range(count1):
+	str1=str1+'M'
+for i in range(count2):
+	str1=str1+'F'
+print(str1)
