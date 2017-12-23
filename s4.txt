@@ -1,15 +1,9 @@
+# python program to print fibonnaci series
 n=int(input())
-
 f0=0;f1=1;f2=0
-
 print(f0,f1,end=" ")
-
 for i in range(2,n):
-
 	f2=f1+f0;
-
 	print(f2,end=" ")
-
 	f0=f1
-
 	f1=f2
