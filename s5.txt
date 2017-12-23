@@ -1,28 +1,16 @@
+# python program to print prime numbers with in the range  of 1,n
 def prime(n):
-
 	count1=0;a=1
-
 	for i in range(2,n):
-
 		if(n%i)==0:
-
 			count1+=1
-
 	if(count1<1):
-
 		a=n
-
 	return a
-
 n=int(input())
-
 b=0
-
 for i in range(2,n):
-
 	b=prime(i)
-
 	if(b!=1):
-
 		print(b)
 		
