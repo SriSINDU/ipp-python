@@ -1,4 +1,4 @@
-#reading a list of numbers in single line as string and converting them to a list using map function
+#reading a list of numbers in single line as string and converting them to a list using map function in python
 s=list(map(int,input().split()))
 print(s)
 #i/p: 1 2 3 4 5
