@@ -1,0 +1,5 @@
+#reading a list of numbers in single line as string and converting them to a list using map function
+s=list(map(int,input().split()))
+print(s)
+#i/p: 1 2 3 4 5
+#o/p: [1,2,3,4,5]
